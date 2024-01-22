@@ -1,11 +1,11 @@
 import React from 'react'
-import { Card } from '../ui/dashboard/cards'
-import RevenueChart from '../ui/dashboard/revenue-chart'
-import LatestInvoices from '../ui/dashboard/latest-invoices'
+import { Card } from '../../ui/dashboard/cards'
+import RevenueChart from '../../ui/dashboard/revenue-chart'
+import LatestInvoices from '../../ui/dashboard/latest-invoices'
 import { lusitana } from '@/app/ui/fonts'
-import { revenue } from '../lib/placeholder-data'
+import { revenue } from '../../lib/placeholder-data'
 // To fetch data for the <RevenueChart/> component, import the fetchRevenue function from data.ts
-import { fetchRevenue, fetchLatestInvoices, fetchCardData } from '../lib/data'
+import { fetchRevenue, fetchLatestInvoices, fetchCardData } from '../../lib/data'
 
 
 export default async function Page() {
